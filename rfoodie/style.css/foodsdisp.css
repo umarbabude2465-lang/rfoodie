@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #FFE99A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("foo.png");
+    background-size: cover;
+    height: 40px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* cook Food */
+
+.loc-1 {
+    color: #228B22;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.loc-2 {
+    color:#0f6a0f;
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+.loc-icon {
+    display: flex;
+}
+
+/* searching */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FFE99A;
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.search-select {
+    background-color: rgb(218, 230, 232);
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+}
+
+.nav-search:hover {
+    border: 3px  solid rgb(139, 244, 248);
+}
+
+.search-input {
+    width: 500px;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: rgb(81, 81, 1);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #FFE99A;
+}
+
+/* Account  list */
+
+span  {
+    color: #228B22;
+    font-size: 0.85rem;
+}
+
+.acc-list {
+    color: #0f6a0f;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.acc-icon {
+    display: flex;
+}
+
+/* saved recipes */
+
+.nav-signin {
+    display: flex;
+}
+
+.nav-save2 {
+    display: flex;
+    color: #0f6a0f;
+    font-weight: bold;
+}
+
+.basket-icon {
+    display: flex;
+}
+
+.design {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 238, 238);
+    width: 70px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.design:focus {
+    background-color: rgb(255, 196, 196);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.paragraph {
+    background-color: rgb(255, 255, 160);
+
+}
+
+.imgpers{
+    background-color: rgb(255, 255, 160);  
+    width: 600px;
+    height: 500px;
+}
